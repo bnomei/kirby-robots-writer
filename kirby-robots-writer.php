@@ -7,7 +7,7 @@ kirby()->routes(array(
 
 			switch( c::get('plugin.robots.writer.type', 'snippet') ) {
 				case 'snippet' :
-					$content = snippet( c::get('plugin.robots.writer.snippet.name', 'snippet'), [], true);
+					$content = snippet( c::get('plugin.robots.writer.snippet.name', 'robots'), [], true);
 					break;
 				case 'site' :
 					$content = site()->{ c::get('plugin.robots.writer.field.name', 'robots') }();
