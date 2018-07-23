@@ -1,0 +1,17 @@
+{
+    "name": "jenstornell/kirby-robots-writer",
+    "type": "plugin",
+    "description": "Robots for Kirby CMS",
+    "version": "0.3.0",
+    "autoload": {
+        "files": [
+            "config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jens Törnell",
+            "email": "jens.tornell@gmail.com"
+        }
+    ]
+}
